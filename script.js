@@ -40,8 +40,18 @@ function getRandomQuote(q) {
   }
   
   nums.push(num);
+  document.body.style.backgroundColor = getRandomColor();
   return q[num];
 }
+
+function getRandomColor(){
+  const r = Math.floor(Math.random() * (255 + 0));
+  const g = Math.floor(Math.random() * (255 + 0));  
+  const b = Math.floor(Math.random() * (255 + 0)); 
+  
+  return `rgb(${r},${g},${b})`;
+}
+
 
 function printQuote(q) {
   return  `  
