@@ -1,4 +1,4 @@
 # random-quote-generator
-teamtreehouse.com-techdegree-full-stack-javascript
+### Treehouse Techdegree Project #1 - Random Quote Generator
 
 <a href="https://pdsomoza.github.io/random-quote-generator/" target="_blank">Live Version</a> 
